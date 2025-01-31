@@ -17,12 +17,12 @@ namespace ClockPatience
             Suit = suit;
         }
 
-        //add method to convert card rank to numerical value (for placement)
+        // method to convert card rank to numerical value (for placement)
         public int GetPileIndex()
         {
             switch(Rank)
             {
-                case "A": return 1; //ace
+                case "A": return 1; // ace
                 case "2": return 2;
                 case "3": return 3;
                 case "4": return 4;
@@ -31,10 +31,10 @@ namespace ClockPatience
                 case "7": return 7;
                 case "8": return 8;
                 case "9": return 9;
-                case "T": return 10; //ten
-                case "J": return 11; //jack
-                case "Q": return 12; //queen
-                case "K": return 13; //king
+                case "T": return 10; // ten
+                case "J": return 11; // jack
+                case "Q": return 12; // queen
+                case "K": return 13; // king
 
                 default: return 0;
             }
@@ -42,7 +42,7 @@ namespace ClockPatience
 
         public override string ToString() 
         {
-            return $"{Rank}{Suit}";
+            return $"{Rank}{Suit}"; // example: 8S
         }
     }
 }
