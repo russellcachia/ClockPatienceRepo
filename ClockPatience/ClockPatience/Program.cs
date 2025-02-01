@@ -5,7 +5,6 @@
         static void Main(string[] args)
         {
             List<string> inputDecks = new List<string>();
-            string line;
 
             // reading the inputa
             while (true)
@@ -56,7 +55,7 @@
         {
             int exposedCards = 0;
             Card currentCard = deck.GetPile(12).Pop(); // starting with the king pile
-            Console.WriteLine($"Starting card: {currentCard.GetPileIndex()}");
+            //Console.WriteLine($"Starting card: {currentCard.GetPileIndex()}");
 
             while (true)
             {

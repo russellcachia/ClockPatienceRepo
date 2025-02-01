@@ -1,0 +1,72 @@
+input:
+TS QC 8S 8D QH 2D 3H KH 9H 2H TH KS KC
+9D JH 7H JD 2S QS TD 2C 4H 5H AD 4D 5D
+6D 4S 9S 5S 7S JS 8H 3D 8C 3S 4C 6S 9C
+AS 7C AH 6H KD JC 7D AC 5C TC QD 6C 3C
+#
+
+output:
+Pile 1: TS 9D 6D AS
+Pile 2: QC JH 4S 7C
+Pile 3: 8S 7H 9S AH
+Pile 4: 8D JD 5S 6H
+Pile 5: QH 2S 7S KD
+Pile 6: 2D QS JS JC
+Pile 7: 3H TD 8H 7D
+Pile 8: KH 2C 3D AC
+Pile 9: 9H 4H 8C 5C
+Pile 10: 2H 5H 3S TC
+Pile 11: TH AD 4C QD
+Pile 12: KS 4D 6S 6C
+Pile 13: KC 5D 9C 3C
+Moving to pile 3 and exposing card AH
+Moving to pile 1 and exposing card AS
+Moving to pile 1 and exposing card 6D
+Moving to pile 6 and exposing card JC
+Moving to pile 11 and exposing card QD
+Moving to pile 12 and exposing card 6C
+Moving to pile 6 and exposing card JS
+Moving to pile 11 and exposing card 4C
+Moving to pile 4 and exposing card 6H
+Moving to pile 6 and exposing card QS
+Moving to pile 12 and exposing card 6S
+Moving to pile 6 and exposing card 2D
+Moving to pile 2 and exposing card 7C
+Moving to pile 7 and exposing card 7D
+Moving to pile 7 and exposing card 8H
+Moving to pile 8 and exposing card AC
+Moving to pile 1 and exposing card 9D
+Moving to pile 9 and exposing card 5C
+Moving to pile 5 and exposing card KD
+Moving to pile 13 and exposing card 9C
+Moving to pile 9 and exposing card 8C
+Moving to pile 8 and exposing card 3D
+Moving to pile 3 and exposing card 9S
+Moving to pile 9 and exposing card 4H
+Moving to pile 4 and exposing card 5S
+Moving to pile 5 and exposing card 7S
+Moving to pile 7 and exposing card TD
+Moving to pile 10 and exposing card TC
+Moving to pile 10 and exposing card 3S
+Moving to pile 3 and exposing card 7H
+Moving to pile 7 and exposing card 3H
+Moving to pile 3 and exposing card 8S
+Moving to pile 8 and exposing card 2C
+Moving to pile 2 and exposing card 4S
+Moving to pile 4 and exposing card JD
+Moving to pile 11 and exposing card AD
+Moving to pile 1 and exposing card TS
+Moving to pile 10 and exposing card 5H
+Moving to pile 5 and exposing card 2S
+Moving to pile 2 and exposing card JH
+Moving to pile 11 and exposing card TH
+Moving to pile 10 and exposing card 2H
+Moving to pile 2 and exposing card QC
+Moving to pile 12 and exposing card 4D
+Moving to pile 4 and exposing card 8D
+Moving to pile 8 and exposing card KH
+Moving to pile 13 and exposing card 5D
+Moving to pile 5 and exposing card QH
+Moving to pile 12 and exposing card KS
+Moving to pile 13 and exposing card KC
+Result: (51, KC)
