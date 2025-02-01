@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ClockPatience
 {
-    class Card
+    internal class Card
     {
         public string Rank { get; set; }
         public string Suit { get; set; }
