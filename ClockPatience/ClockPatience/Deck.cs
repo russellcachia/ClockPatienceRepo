@@ -12,9 +12,8 @@ namespace ClockPatience
         private Stack<Card>[] piles = new Stack<Card>[13]; // an array of 13 stacks, each holding Card objects called piles
 
         public Deck()
-        {
-            // initializing all piles
-            for (int i = 0; i < 13; i++)
+        { 
+            for (int i = 0; i < 13; i++) // initializing all piles
             {
                 piles[i] = new Stack<Card>();
             }
@@ -31,13 +30,7 @@ namespace ClockPatience
                 //Console.WriteLine(cards[i]);
             }
 
-            /*for (int i = cards.Count - 1; i >= 0; i--)
-            {
-                int pileIndex = i % 13;
-                piles[pileIndex].Push(cards[i]); // Pushing from last to first
-            }*/
-
-            // to print the piles
+            // printing the cards in their respective piles
             for (int i = 0; i < 13; i++)
             {
                 Console.Write($"Pile {i + 1}: ");
@@ -45,11 +38,11 @@ namespace ClockPatience
                 {
                     Console.Write($"{card} "); // printing the contents of the pile
                 }
-                Console.WriteLine(); // moving to the next line only after printing all cards of the pile
+                Console.WriteLine(); // moving to the next line only after printing all cards in pile
             }
         }
 
-        // returning the pile stack at the given index
+        // returning the stack(pile) at the given index
         public Stack<Card> GetPile(int index)
         {
             return piles[index];

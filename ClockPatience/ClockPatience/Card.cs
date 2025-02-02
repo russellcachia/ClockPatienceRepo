@@ -17,7 +17,7 @@ namespace ClockPatience
             Suit = suit;
         }
 
-        // method to convert card rank to numerical value (for placement)
+        // method to convert card rank to numerical value
         public int GetPileIndex()
         {
             switch(Rank)

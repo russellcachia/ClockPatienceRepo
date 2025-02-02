@@ -10,18 +10,18 @@
             while (true)
             {
                 string line1 = Console.ReadLine();
-                if (line1 == "#") break;
+                if (line1 == "#") break; // checking if a "#" is present
 
                 string line2 = Console.ReadLine();
-                if (line2 == "#") break;
+                if (line2 == "#") break; // checking if a "#" is present
 
                 string line3 = Console.ReadLine();
-                if (line3 == "#") break;
+                if (line3 == "#") break; // checking if a "#" is present
 
                 string line4 = Console.ReadLine();
-                if (line4 == "#") break;
+                if (line4 == "#") break; // checking if a "#" is present
 
-                string fullDeck = $"{line1} {line2} {line3} {line4}";
+                string fullDeck = $"{line1} {line2} {line3} {line4}"; // combining all 4 lines together
                 inputDecks.Add(fullDeck);
             }
 
@@ -33,9 +33,9 @@
 
                 foreach (var cardString in cardStrings)
                 {
-                    string rank = cardString.Substring(0, 1);
-                    string suit = cardString.Substring(1, 1);
-                    cards.Add(new Card(rank, suit));
+                    string rank = cardString.Substring(0, 1); // extracting the rank of the card
+                    string suit = cardString.Substring(1, 1); // extracting the suit of the card
+                    cards.Add(new Card(rank, suit)); // creating a new Card object with the extracted rank and suit
                 }
 
                 // creating and dealing the cards
@@ -62,7 +62,7 @@
                 exposedCards++;
                 //Console.WriteLine($"Exposing card {currentCard} from pile {currentCard.GetPileIndex()}");
 
-                int pileIndex = currentCard.GetPileIndex() - 1;
+                int pileIndex = currentCard.GetPileIndex() - 1; // determines the next pile to move to
 
                 // i fno more cards in current pile
                 if (deck.GetPile(pileIndex).Count == 0)
@@ -70,7 +70,7 @@
                     break;
                 }
 
-                currentCard = deck.GetPile(pileIndex).Pop(); // move to the next pile
+                currentCard = deck.GetPile(pileIndex).Pop(); // move to the next pile, .Pop() removes and returns the topmost element in a stack
                 Console.WriteLine($"Moving to pile {pileIndex + 1} and exposing card {currentCard}");
             }
 
